@@ -14,29 +14,10 @@
         <nav id="navbar" class="navbar">
             <ul>
               <li><a class="nav-link scrollto active" href="#hero">{{ __('Home') }}</a></li>
-              <li><a class="nav-link scrollto" href="#about">{{ __('About') }}</a></li>
+              {{-- <li><a class="nav-link scrollto" href="#about">{{ __('About') }}</a></li> --}}
               <li><a class="nav-link scrollto" href="#services">{{ __('Services') }}</a></li>
               <li><a class="nav-link scrollto" href="#portfolio">{{ __('Portfolio') }}</a></li>
-              <!-- <li><a class="nav-link scrollto" href="#team">Team</a></li>
-              <li><a href="blog.html">Blog</a></li> -->
-              <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
-                  <ul>
-                  <li><a href="#">Drop Down 1</a></li>
-                  <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-                      <ul>
-                      <li><a href="#">Deep Drop Down 1</a></li>
-                      <li><a href="#">Deep Drop Down 2</a></li>
-                      <li><a href="#">Deep Drop Down 3</a></li>
-                      <li><a href="#">Deep Drop Down 4</a></li>
-                      <li><a href="#">Deep Drop Down 5</a></li>
-                      </ul>
-                  </li>
-                  <li><a href="#">Drop Down 2</a></li>
-                  <li><a href="#">Drop Down 3</a></li>
-                  <li><a href="#">Drop Down 4</a></li>
-                  </ul>
-              </li> -->
-              <li><a class="nav-link scrollto" href="#contact">{{ __('Contact') }}</a></li>
+              <li><a class="nav-link scrollto" href="#contact">{{ __('contact') }}</a></li>
               <li>
                 
                 <a class="nav-link dropdown-toggle getstarted" href="#" data-toggle="dropdown" id="langDropdown">
@@ -73,7 +54,7 @@
   <main id="main">
 
     <!-- ======= About Section ======= -->
-      @include('partials.about')
+      {{-- @include('partials.about') --}}
     <!-- End About Section -->
 
 
@@ -109,7 +90,7 @@
 
 
     <!-- ======= F.A.Q Section ======= -->
-      @include('partials.faq')
+      {{-- @include('partials.faq') --}}
     <!-- End F.A.Q Section -->
 
 
@@ -121,19 +102,19 @@
 
 
     <!-- ======= Testimonials Section ======= -->
-      @include('partials.testimonials')
+      {{-- @include('partials.testimonials') --}}
     <!-- End Testimonials Section -->
 
 
 
     <!-- ======= Team Section ======= -->
-      @include('partials.team')
+      {{-- @include('partials.team') --}}
     <!-- End Team Section -->
 
 
 
     <!-- ======= Clients Section ======= -->
-      @include('partials.clients')
+      {{-- @include('partials.clients') --}}
     <!-- End Clients Section -->
 
 

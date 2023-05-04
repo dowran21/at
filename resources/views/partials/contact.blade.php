@@ -3,8 +3,8 @@
     <div class="container" data-aos="fade-up">
 
       <header class="section-header">
-        <h2>Contact</h2>
-        <p>Contact Us</p>
+        {{-- <h2>{{ __('contact') }}</h2> --}}
+        <p>{{ __('contact') }}</p>
       </header>
 
       <div class="row gy-4">
@@ -15,29 +15,29 @@
             <div class="col-md-6">
               <div class="info-box">
                 <i class="bi bi-geo-alt"></i>
-                <h3>Address</h3>
+                <h3>{{ __('address') }}</h3>
                 <p>Parahat 2/4, jaý 2, Blok "A"<br>Aşgabat / Türkmenistan</p>
               </div>
             </div>
             <div class="col-md-6">
               <div class="info-box">
                 <i class="bi bi-telephone"></i>
-                <h3>Call Us</h3>
+                <h3>{{ __('call_us') }}</h3>
                 <p>+993 65 85-93-86<br></p>
               </div>
             </div>
             <div class="col-md-6">
               <div class="info-box">
                 <i class="bi bi-envelope"></i>
-                <h3>Email Us</h3>
+                <h3>{{ __('email_us') }}</h3>
                 <p>info@ajayyptilsimatlar.com<br>nariman@ajayyptilsimatlar.com</p>
               </div>
             </div>
             <div class="col-md-6">
               <div class="info-box">
                 <i class="bi bi-clock"></i>
-                <h3>Open Hours</h3>
-                <p>Monday - Friday<br>09:00 - 18:00</p>
+                <h3>{{ __('open_hours') }}</h3>
+                <p>09:00 - 18:00</p>
               </div>
             </div>
           </div>
@@ -50,27 +50,27 @@
             <div class="row gy-4">
 
               <div class="col-md-6">
-                <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+                <input type="text" name="name" class="form-control" placeholder={{ __('your_name') }} required>
               </div>
 
               <div class="col-md-6 ">
-                <input type="email" class="form-control" name="email" placeholder="Your Email" required>
+                <input type="email" class="form-control" name="email" placeholder={{ __('your_email') }} required>
               </div>
 
               <div class="col-md-12">
-                <input type="text" class="form-control" name="subject" placeholder="Subject" required>
+                <input type="text" class="form-control" name="subject" placeholder={{ __('subject') }} required>
               </div>
 
               <div class="col-md-12">
-                <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
+                <textarea class="form-control" name="message" rows="6" placeholder={{ __('message') }}  required></textarea>
               </div>
 
               <div class="col-md-12 text-center">
-                <div class="loading">Loading</div>
+                <div class="loading">{{ __('loading') }}</div>
                 <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
+                <div class="sent-message">{{ __('message_sent') }}</div>
 
-                <button type="submit">Send Message</button>
+                <button type="submit">{{ __('send_message') }}</button>
               </div>
 
             </div>
